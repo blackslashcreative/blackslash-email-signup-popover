@@ -1,0 +1,195 @@
+/***************************************************
+/* Custom Email Signup Popover by BlackSla#email-popsh
+***************************************************/
+.ir-white-popup {
+	position: relative;
+	background: #FFF;
+	padding: 20px 30px;
+	width: auto;
+	max-width: 630px;
+	margin: 20px auto;
+	border:5px solid #fff!important;
+	outline:1px solid #ccc!important;
+	outline:none!important;
+}
+
+.bs-popup h3 {
+	font-family: 'AriPunk', Arial Black, 'Arial Black', 'Arial Bold', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size:30px;
+	margin-bottom:15px;
+	margin-top: 25px;
+	text-align:center;
+}
+
+.bs-popup p {
+	font-family:"Gotham-Medium", "Raleway", Helvetica, Arial, sans-serif;
+	font-size:11px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.bs-popup p.call-to-action {
+	font-size:17px;
+	margin-bottom:10px;
+	letter-spacing: 1px;
+	padding-left: 27px;
+	float:left;
+	margin-top:10px;
+	position:relative;
+	top:-11px;
+}
+
+.bs-popup #mc-form input,
+.bs-popup #subscribe-form input,
+.bs-popup #mc-form button {
+	border-color: #252525;
+	float:none;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.bs-popup #emailbuttonwrap {
+	display:block;
+	width:auto;
+	margin:0 auto;
+}
+
+.bs-popup input#mc-email {
+	width:75%!important;
+	min-height: 50px;
+	margin-top: 0px;
+	border-right:0px;
+	padding-left: 15px;
+}
+
+.bs-popup button {
+	width:25%!important;
+	color:#f9f9f9!important;
+	background-color:#252525!important;
+	height:50px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin:0 auto;
+}
+
+.bs-popup button:hover,
+.bs-popup button:focus {
+	background-color:#e43c40!important;
+	color:#ffffff!important;
+	outline:0!important;
+	cursor:pointer;
+}
+
+.bs-popup label.myresult {
+	display:block;
+	text-align:center;
+	float:none;
+	clear:both;
+	height:26px!important;
+	text-transform:lowercase;
+	margin-top:0px;
+	font-size:0.7em;
+}
+
+.bs-popup label.myresult.error {
+	color:#DD5858;
+}
+
+.bs-popup label.myresult.valid {
+	color:#58dd58;
+}
+
+.bs-popup a {
+	font-size:0.8em;
+	text-decoration:underline;
+}
+
+#signup-form #status {
+	display:block;
+	min-height:22px;
+	margin-bottom:12px!important;
+}
+
+#signup-form input[type=submit] {
+	margin-right: 0;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    background: #222;
+    border-color: #222;
+    margin-bottom:12px;
+	font-weight:normal;
+}
+
+#signup-form input[type=submit]:hover {
+	background:#dd1313;
+	border-color:#dd1313;
+}
+
+.ir-white-popup.bs-popup {
+	padding-bottom:0px;
+}
+
+.ir-white-popup.bs-popup .spb_content_element {
+	margin-bottom:0;
+}
+
+.red {
+	color:#DD5858;
+}
+
+.strong {
+	font-weight:bold;
+}
+
+.mfp-close-btn-in .mfp-close {
+	background: none!important;
+	color: #252525!important;
+	width: auto!important;
+	padding: 10px;
+	padding-top: 0;
+	padding-bottom: 0;
+	border:0!important;
+	height:34px;
+	line-height:36px;
+	font-family: 'Raleway', sans-serif !important;
+}
+
+.mfp-iframe-holder .mfp-close {
+	top:0;
+	right:-6px;
+}
+
+.mfp-close-btn-in .mfp-close:hover,
+.mfp-close-btn-in .mfp-close:focus {
+	background:none!important;
+	background-color:none!important;
+	color: #e43c40!important;
+}
+
+.mfp-close-btn-in .mfp-close:active {
+	box-shadow: none!important;
+}
+
+.mfp-content h3 {
+	font-weight:normal !important;
+	display:block !important;
+	margin-top:10px !important;
+}
+
+.antispam {
+	display:none!important;
+}
+
+.g-recaptcha {
+	margin-bottom:15px;
+}
+
+.g-recaptcha > div {
+	margin-top:15px;
+}
+
+.popup.logo {
+	max-width: 150px;
+	margin: 30px auto 20px;
+	display: block;
+}
